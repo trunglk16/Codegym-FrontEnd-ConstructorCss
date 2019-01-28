@@ -1,0 +1,164 @@
+.header {
+    height: 99.5%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0.5%;
+}
+
+* {
+    /*!*padding: 2px;*!*/
+    box-sizing: border-box;
+    /*display: block;*/
+}
+
+#logo {
+    position: relative;
+    height: 150px;
+    width: 20%;
+    float: left;
+    background-color: bisque;
+    display: inline-block;
+
+}
+
+#banner {
+    position: relative;
+    height: 150px;
+    width: 79.5%;
+    margin-left: 0.5%;
+    float: left;
+    background-color: aqua;
+    display: inline-block;
+}
+
+#navbar {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    margin-bottom: 0.5%;
+}
+
+.left {
+    position: relative;
+    height: 450px;
+    width: 20%;
+    float: left;
+    clear: both;
+    margin-right: 0.5%;
+}
+
+#menu {
+    height: 50%;
+    margin-bottom: 0.5%;
+    background-color: cadetblue;
+}
+
+#menu2 {
+    height: 49.5%;
+    background-color: bisque;
+}
+
+.center {
+    position: relative;
+    width: 60%;
+    display: flex;
+    float: left;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.center-main {
+    /*display: inline-block;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /*float: left;
+    position: relative;
+    top: 81px;*/
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;*/
+}
+
+.center-main .new {
+    display: inline-block;
+    width: 32%;
+    background-color: cadetblue;
+    margin: 15px 0;
+    padding: 10px 5px;
+}
+
+.center-main .new:nth-child(1) {
+    width: 15%;
+}
+.center-main .new:nth-child(2) {
+    width: 45%;
+}
+
+
+
+#line1 {
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+/*    position: relative;
+    margin-bottom: 0.5%;*/
+
+}
+
+
+#hot-news {
+    height: 80px;
+    position: relative;
+    width: 60%;
+    background-color: red;
+    float: left;
+}
+
+#slide {
+    height: 80px;
+    position: relative;
+    width: 39%;
+    background-color: brown;
+    float: left;
+    /*margin-left: 0.5%;*/
+
+
+}
+
+
+
+.right {
+    position: relative;
+    background-color: green;
+    float: left;
+    width: 19%;
+    margin-left: 0.5%;
+    height: 450px;
+}
+
+
+
+.footer {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    margin-top: 0.5%;
+
+}
